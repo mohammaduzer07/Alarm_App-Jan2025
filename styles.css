@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+.numHeight{
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 56.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+
+}
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.timer-input {
+    margin-left: -130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #2e2e42;
+    border-radius: 10px;
+}
+.timer-input label {
+    display: inline-block;
+    margin: 0 5px;
+}
+.timer-input input {
+    width: 50px;
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b3b5e;
+    color: #fff;
+}
+.timer-input button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #F0F757;
+    color: #060606;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.timename{
+    padding-right: 8em;
+}
+.timer-input button:hover {
+    background-color: #45a049;
+}
+.active-timers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.timer {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 800px;
+    margin-left: -130px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #2e2e42;
+    border-radius: 10px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+    font-family: Roboto;
+}
+.timer.ended {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    width: 800px;
+    height: 56px;
+    top: 466px;
+    left: 709px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+}
+.timer .deletetimer{
+    text-align: end;
+    margin-left: 10em;
+}
+.timer button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #F0F757;
+    color: #070707;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.timer button:hover {
+    background-color: #ff1a1a;
+}
+.no-timers {
+    color: #ccc;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+
+}
